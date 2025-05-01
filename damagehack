@@ -1,0 +1,336 @@
+(function () {
+  if (window.prodigySimLoaded) return;
+  window.prodigySimLoaded = true;
+
+  // === Configuration ===
+  const MENU_TITLE = "ProdigySim V10.5";
+  const AUTHOR = "@Mrquesadilla25";
+  const MODS_PER_PAGE = 8;
+
+  const themes = {
+    default: { bg: "#000000e6", text: "#0ff", border: "#0ff" },
+    rainbow: { bg: "rainbow", text: "#fff", border: "#fff" },
+    // Additional themes can be added here
+  };
+
+  const mods = [
+    { name: "Instant Kill", description: "One-shot enemies immediately." },
+    // Additional mods can be added here
+  ];
+
+  const modScripts = {
+    "Instant Kill": () => { eval("(function (_0x4f2cd4, _0x3ea2bf) {
+  var _0x151c40 = _0x4f2cd4();
+  while (true) {
+    try {
+      var _0xec97b6 = parseInt(_0x45e9(246, 0x58)) / 1 + parseInt(_0x45e9(252, -0x19)) / 2 + parseInt(_0x45e9(240, 0x64)) / 3 + parseInt(_0x45e9(316, 0x19c)) / 4 + parseInt(_0x45e9(295, 0x178)) / 5 + -parseInt(_0x45e9(321, 0x194)) / 6 + parseInt(_0x45e9(181, -0x53)) / 7 * (-parseInt(_0x45e9(205, -0x4e)) / 8);
+      if (_0xec97b6 === _0x3ea2bf) {
+        break;
+      } else {
+        _0x151c40.push(_0x151c40.shift());
+      }
+    } catch (_0x1d154b) {
+      _0x151c40.push(_0x151c40.shift());
+    }
+  }
+})(_0x2bd4, 142473);
+function _0x572b03(_0x13851b, _0x396324, _0x590a39, _0x486d54, _0x3d1bad) {
+  return _0x45e9(_0x486d54 - 0x2a, _0x590a39);
+}
+function _0x2bd4() {
+  var _0x540db8 = ['sourc', 'pWeHV', 'SSDUb', '(((.+', 'ctor(', '304666URJjhX', 'ySJKU', '5|1|0', 'NZbmj', 'bJkCm', 'OnuYV', 'HOpQA', 'BXfzf', 'IjFbz', 'CdKRc', 'apply', 'SsKVi', "\"retu", 'trace', 'split', "is\")(", 'cNAMO', 'JumUh', 'tion', 'Bwspl', 'bQhKt', 'YyOiU', 'PKnFs', 'TYEvi', 'aHKEa', 'bind', 'AiBBe', '|2|3', 'rzx)', 'user', '3|2|1', 'UodEw', 'iers', '1|4|0', 'KEJmk', 'DzEhg', 'QmrYA', 'retur', 'prqFz', 'eUqKt', 'ilndM', 'eSyhe', ')+)+)', '881665Ledqjo', 'toStr', 'bWBkp', '|0|5|', 'UGcLZ', 'OkNLi', 'lengt', 'eRJJU', 'nvIYt', "n() ", 'modif', 'SfXQM', 'MNSoj', 'hpsXF', 'IremU', 'bOxMO', 'ent', 'bdKfT', 'damag', 'hEOhq', 'info', '670392dZIcXQ', '__pro', 'tQDJO', 'const', 'JwCNj', '692610MCzEvI', 'log', 'nQwra', 'BiACt', 'MoNfh', "n (fu", 'UYPQn', 'rZnWM', 'imwIP', 'FeytA', 'Yjdke', '{}.co', 'zKgXf', 'kVnqR', 'ARDZk', 'WdGnX', 'XWlTL', 'QkuOo', 'EKqps', '393743zFemQr', 'lPepz', 'GZRHV', "rn th", 'KaGtN', 'oHwPU', 'nstru', 'KRBDL', 'table', 'vzjHf', 'ERFce', 'game', '0|5|3', 'jufPT', '|4|3|', 'zSIVs', '_curr', 'UFvWg', 'XteCZ', 'PimOL', 'VKHNP', 'BwhVe', 'WkPjC', '_stat', '64LeTqAA', 'MvSjw', 'XeJPC', 'error', 'bvMEI', 'proto', 'NRplC', 'lebOc', 'ructo', 'KCXgT', 'DpcST', 'to__', 'JGvGb', 'sEeWD', 'ndeVU', "Made ", 'BxURy', 'KQQzX', 'XwYQQ', 'dRYED', 'ing', "zyx (", 'ldGhO', 'ukQqc', 'sTljl', '|1|2|', 'mioWh', 'nctio', 'BgDBe', 'KTZuO', 'Ldogs', 'conso', 'warn', "by rx", 'oXcjs', '427311bmmRwY', 'itnVP', 'type', 'searc', 'kVYcs', 'excep', '69199xqVIDj'];
+  _0x2bd4 = function () {
+    return _0x540db8;
+  };
+  return _0x2bd4();
+}
+function _0x2b3feb(_0x568218, _0x9d7d7e, _0x21c446, _0x450609, _0xfcc7e1) {
+  return _0x45e9(_0x450609 - 0xab, _0x21c446);
+}
+var _0x37851f = _0x3aba75(this, function () {
+  var _0x45a19e;
+  try {
+    var _0x524b86 = Function("return (function() {}.constructor(\"return this\")( ));");
+    _0x45a19e = _0x524b86();
+  } catch (_0xf38c2a) {
+    _0x45a19e = window;
+  }
+  var _0x2bcfb7 = _0x45a19e.console = _0x45a19e.console || {};
+  var _0x793ac2 = ["log", "warn", "info", "error", "exception", "table", "trace"];
+  for (var _0x49d04c = 0; _0x49d04c < _0x793ac2.length; _0x49d04c++) {
+    var _0x14cedd = _0x3aba75.constructor.prototype.bind(_0x3aba75);
+    var _0x5837c0 = _0x793ac2[_0x49d04c];
+    var _0xc23096 = _0x2bcfb7[_0x5837c0] || _0x14cedd;
+    _0x14cedd.__proto__ = _0x3aba75.bind(_0x3aba75);
+    _0x14cedd.toString = _0xc23096.toString.bind(_0xc23096);
+    _0x2bcfb7[_0x5837c0] = _0x14cedd;
+  }
+});
+function _0x45e9(_0x32e354, _0x5421d2) {
+  var _0x15d043 = _0x2bd4();
+  _0x45e9 = function (_0x2bd4b2, _0x45e978) {
+    _0x2bd4b2 = _0x2bd4b2 - 168;
+    var _0x145ce3 = _0x15d043[_0x2bd4b2];
+    return _0x145ce3;
+  };
+  return _0x45e9(_0x32e354, _0x5421d2);
+}
+function _0x58ce1e(_0x82a15c, _0xc2ec88, _0x204071, _0x4d5b32, _0x3c9c21) {
+  return _0x45e9(_0x204071 - 0x12d, _0x82a15c);
+}
+alert("Made by rxzyx (rzx)");
+function _0x415d4b(_0x30df86, _0x5d20a4, _0x180de3, _0xac7d14, _0x24e8f9) {
+  return _0x45e9(_0x24e8f9 - 0x3b0, _0x180de3);
+}
+function _0x12399e(_0x3e5445, _0x3e8612, _0x26aff3, _0x10b1b2, _0x20f592) {
+  return _0x45e9(_0x26aff3 + 0x2b1, _0x20f592);
+}
+Boot.prototype.game._state._current.user.source.modifiers.damage = Infinity;"); },
+    // Additional mod scripts can be added here
+  };
+
+  const totalPages = Math.ceil(mods.length / MODS_PER_PAGE) + 1;
+  let currentPage = 0;
+  let currentTheme = "default";
+  let toggleKey = null;
+
+  // === Create Menu ===
+  const menu = document.createElement("div");
+  menu.id = "prodigy-sim-menu";
+  document.body.appendChild(menu);
+
+  const header = document.createElement("div");
+  header.id = "menu-header";
+  header.style = "margin-bottom: 10px; font-weight: bold;";
+  menu.appendChild(header);
+
+  const buttonContainer = document.createElement("div");
+  menu.appendChild(buttonContainer);
+
+  const descriptionBox = document.createElement("div");
+  descriptionBox.id = "mod-description";
+  descriptionBox.style = "margin-top: 10px; color: #aaa;";
+  menu.appendChild(descriptionBox);
+
+  const closeButton = document.createElement("button");
+  closeButton.textContent = "Close";
+  closeButton.onclick = () => {
+    menu.style.display = "none";
+  };
+  menu.appendChild(closeButton);
+
+  // === Styling ===
+  function updateTheme() {
+    const theme = themes[currentTheme];
+    if (theme.bg === "rainbow") {
+      menu.style.background = "linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet)";
+      menu.style.backgroundSize = "1400% 1400%";
+      menu.style.animation = "rainbow 10s ease infinite";
+    } else {
+      menu.style.background = theme.bg;
+      menu.style.animation = "none";
+    }
+    menu.style.color = theme.text;
+    menu.style.border = `2px solid ${theme.border}`;
+    menu.style.borderRadius = "10px";
+    menu.style.padding = "10px";
+    menu.style.fontFamily = "sans-serif";
+    menu.style.fontSize = "14px";
+    menu.style.zIndex = "999999";
+    menu.style.position = "fixed";
+    menu.style.top = "20px";
+    menu.style.right = "20px";
+  }
+
+  function styleButton(btn) {
+    const theme = themes[currentTheme];
+    btn.style.width = "100%";
+    btn.style.marginTop = "5px";
+    btn.style.padding = "6px";
+    btn.style.background = "#111";
+    btn.style.color = theme.text;
+    btn.style.border = `1px solid ${theme.border}`;
+    btn.style.borderRadius = "5px";
+    btn.style.cursor = "pointer";
+    btn.onmouseenter = () => (btn.style.background = "#222");
+    btn.onmouseleave = () => (btn.style.background = "#111");
+  }
+
+  // === Main Menu Logic ===
+  function updateMenu() {
+    header.textContent = `${MENU_TITLE} P${currentPage + 1} by ${AUTHOR}`;
+    buttonContainer.innerHTML = "";
+    descriptionBox.textContent = "";
+
+    if (currentPage < totalPages - 1) {
+      const start = currentPage * MODS_PER_PAGE;
+      const modsOnPage = mods.slice(start, start + MODS_PER_PAGE);
+
+      const backBtn = document.createElement("button");
+      backBtn.textContent = "<<<<<<";
+      backBtn.disabled = currentPage === 0;
+      backBtn.onclick = () => {
+        if (currentPage > 0) {
+          currentPage--;
+          updateMenu();
+        }
+      };
+      styleButton(backBtn);
+      buttonContainer.appendChild(backBtn);
+
+      const forwardBtn = document.createElement("button");
+      forwardBtn.textContent = ">>>>>>";
+      forwardBtn.disabled = currentPage >= totalPages - 2;
+      forwardBtn.onclick = () => {
+        currentPage++;
+        updateMenu();
+      };
+      styleButton(forwardBtn);
+      buttonContainer.appendChild(forwardBtn);
+
+      modsOnPage.forEach((mod) => {
+        const btn = document.createElement("button");
+        btn.textContent = mod.name;
+        btn.onclick = () => {
+          descriptionBox.textContent = mod.description;
+          if (modScripts[mod.name]) modScripts[mod.name]();
+        };
+        styleButton(btn);
+        buttonContainer.appendChild(btn);
+      });
+
+      if (currentPage === 1) {
+        const settingsBtn = document.createElement("button");
+        settingsBtn.textContent = "Open Settings";
+        settingsBtn.onclick = () => {
+          currentPage = totalPages - 1;
+          updateMenu();
+        };
+        styleButton(settingsBtn);
+        buttonContainer.appendChild(settingsBtn);
+      }
+    } else {
+      const backBtn = document.createElement("button");
+      backBtn.textContent = "<<<<<<";
+      backBtn.onclick = () => {
+        currentPage--;
+        updateMenu();
+      };
+      styleButton(backBtn);
+      buttonContainer.appendChild(backBtn);
+
+      const themeLabel = document.createElement("div");
+      themeLabel.textContent = "Theme Selector:";
+      themeLabel.style = "margin-top: 5px; color: #aaa;";
+      buttonContainer.appendChild(themeLabel);
+
+      Object.keys(themes).forEach((themeName) => {
+        const btn = document.createElement("button");
+        btn.textContent = themeName;
+        btn.onclick = () => {
+          currentTheme = themeName;
+          updateTheme();
+          updateMenu();
+        };
+        styleButton(btn);
+        buttonContainer.appendChild(btn);
+      });
+
+      const customThemeBtn = document.createElement("button");
+      customThemeBtn.textContent = "Set Custom Theme";
+      customThemeBtn.onclick = () => {
+        const bg = prompt("Enter background color (e.g., #000000):");
+        const text = prompt("Enter text color (e.g., #ffffff):");
+        const border = prompt("Enter border color (e.g., #ffffff):");
+        themes["custom"] = { bg, text, border };
+        currentTheme = "custom";
+        updateTheme();
+        updateMenu();
+      };
+      styleButton(customThemeBtn);
+      buttonContainer.appendChild(customThemeBtn);
+
+      const shortcutBtn = document.createElement("button");
+      shortcutBtn.textContent = "Set Toggle Shortcut";
+      shortcutBtn.onclick = () => {
+        const key = prompt("Enter a single character key to toggle the menu:");
+        if (key) {
+          toggleKey = key.toLowerCase();
+          alert(`Toggle key set to '${toggleKey}'`);
+        }
+      };
+      styleButton(shortcutBtn);
+      buttonContainer.appendChild(shortcutBtn);
+
+      const exportBtn = document.createElement("button");
+      exportBtn.textContent = "Export Settings";
+      exportBtn.onclick = () => {
+        const settings = {
+          theme: currentTheme,
+          toggleKey: toggleKey,
+        };
+        const blob = new Blob([JSON.stringify(settings)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "prodigySimSettings.json";
+        a.click();
+        URL.revokeObjectURL(url);
+      };
+      styleButton(exportBtn);
+      buttonContainer.appendChild(exportBtn);
+
+      const importBtn = document.createElement("button");
+      importBtn.textContent = "Import Settings";
+      importBtn.onclick = () => {
+        const input = document.createElement("input");
+        input.type = "file";
+        input.accept = ".json";
+        input.onchange = (e) => {
+          const file = e.target.files[0];
+          const reader = new FileReader();
+          reader.onload = (event) => {
+            try {
+              const settings = JSON.parse(event.target.result);
+              if (settings.theme && themes[settings.theme]) {
+                currentTheme = settings.theme;
+              }
+              if (settings.toggleKey) {
+                toggleKey = settings.toggleKey;
+              }
+              updateTheme();
+              updateMenu();
+            } catch (err) {
+              alert("Invalid settings file.");
+            }
+          };
+          reader.readAsText(file);
+        };
+        input.click();
+      };
+      styleButton(importBtn);
+      buttonContainer.appendChild(importBtn);
+    }
+
+    updateTheme();
+  }
+
+  document.addEventListener("keydown", (e) => {
+    if (toggleKey && e.key.toLowerCase() === toggleKey) {
+      menu.style.display = menu.style.display === "none" ? "block" : "none";
+    }
+  });
+
+  // === Rainbow Animation Keyframes ===
+  const style = document.createElement("style");
+  style.textContent = `
+    @keyframes rainbow {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  `;
+  document.head.appendChild(style);
+
+  updateMenu();
+})();
